@@ -1,0 +1,28 @@
+{
+  "name": "@seriousbunch/kite-agent-data-escrow",
+  "version": "1.0.0",
+  "description": "Decentralized AI Dataset Annotation Escrow & x402 Micropayment Revenue Share Protocol on Kite Chain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/*.js"
+  },
+  "keywords": [
+    "kite-ai",
+    "data-escrow",
+    "x402",
+    "ai-agent",
+    "solidity",
+    "web3"
+  ],
+  "author": "seriousbunch <seriousbunch@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
